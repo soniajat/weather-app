@@ -5,7 +5,7 @@
     box-sizing: border-box
 }
 body{
-    background-image: url("background-image: url("https://scied.ucar.edu/sites/default/files/styles/half_width/public/2021-10/cumulus-clouds.jpg.webp?itok=HkQfuWxM");");
+    background-image: url("https://scied.ucar.edu/sites/default/files/styles/half_width/public/2021-10/cumulus-clouds.jpg.webp?itok=HkQfuWxM");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg,  #6ecae1, #3078b3);
+    background: linear-gradient(135deg, #6ecae1, #3078b3);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -94,4 +94,18 @@ body{
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+@media only screen and (max-width: 600px){
+    .card div{
+        flex-basis: 100%;
+    }
+    .search{
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+    .search input{
+        width: 0;
+        padding: 0 20px;
+}
 }
